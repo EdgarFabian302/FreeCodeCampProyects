@@ -1,0 +1,88 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: #a3b7eb;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+h1{
+    text-align: center;
+    margin: 1em 0 4px 0;
+}
+
+p {
+    margin: 0 0 1.5em 0;
+    text-align: center;
+    font-style: italic;
+    font-weight: lighter;
+  }
+
+form {
+    width: 70vw;
+    max-width: 600px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding: 0 3em;
+    background-color: #4f7d96;
+    border: 2px solid #456a80;
+    border-radius: 5px;
+    color: #eeeeee;
+}
+
+fieldset {
+    border: none;
+    padding: none;
+}
+
+label {
+    display: block;
+    margin: 2px 0;
+}
+
+input, textarea, select {
+    margin: 5px 0 1em 0;
+    width: 100%;
+    height: 2.5em;
+    min-height: 2em;
+    font-size: 15px;
+}
+input, textarea, select {
+    background-color: #eeeeee;
+    border: 1px solid #eeeeee;
+    border-radius: 3px;
+}
+select {
+    color: grey;
+}
+.inline {
+    display: inline;
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+input[type="checkbox"] {
+    width: unset;
+    display: inline;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+textarea {
+    font-size: 16px;
+    color: grey;
+    margin-bottom: 0;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 100%;
+    margin: 0 0 2em 0;
+    height: 3em;
+    font-size: 1.1rem;
+    background-color: #35bfd4;
+    border-color: white;
+    color: #eeeeee;
+    min-width: 300px;
+    font-weight: bold;
+}
